@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started
 
 The following sections describe in some detail the needed steps to setup the environment and give explanations why and how things are configured
@@ -196,3 +197,71 @@ For further reference, please consider the following sections:
 [kafka/quickstart]: https://kafka.apache.org/quickstart
 [redis]: https://redis.io/
 [rabbitmq]: https://www.rabbitmq.com/
+=======
+# ACP_CW2 dwaisdj
+>>>>>>> b0c61dd4055ac681eb83ef69822e6f3f47e9aa00
+
+```
+AcpCw2Template
+├─ .idea
+│  ├─ AcpCw2Template.iml
+│  ├─ aws.xml
+│  ├─ compiler.xml
+│  ├─ encodings.xml
+│  ├─ jarRepositories.xml
+│  ├─ misc.xml
+│  ├─ runConfigurations
+│  │  ├─ Dockerfile.xml
+│  │  └─ Service_as_standalone_process.xml
+│  └─ vcs.xml
+├─ AcpCw2Template.iml
+├─ acp_cw2.http
+├─ assets
+│  ├─ acp_cw2_docker_landscape.png
+│  ├─ docker view.png
+│  ├─ intelliJ config.png
+│  ├─ local process environment.png
+│  └─ redis mgmt.png
+├─ compose.yml
+├─ Dockerfile
+├─ jenkins
+│  ├─ dockerfile
+│  ├─ jenkins-cli.jar
+│  ├─ jenkins-pipeline
+│  └─ SetupJenkins.MD
+├─ mvnw
+├─ mvnw.cmd
+├─ pom.xml
+├─ README.md
+└─ src
+   ├─ main
+   │  ├─ java
+   │  │  └─ uk
+   │  │     └─ ac
+   │  │        └─ ed
+   │  │           └─ acp
+   │  │              └─ cw2
+   │  │                 ├─ Application.java
+   │  │                 ├─ configuration
+   │  │                 │  └─ AppConfig.java
+   │  │                 ├─ controller
+   │  │                 │  ├─ CacheController.java
+   │  │                 │  ├─ ErrorHandler.java
+   │  │                 │  ├─ KafkaController.java
+   │  │                 │  ├─ MongoDbController.java
+   │  │                 │  ├─ RabbitMqController.java
+   │  │                 │  └─ ServiceController.java
+   │  │                 └─ data
+   │  │                    └─ RuntimeEnvironment.java
+   │  └─ resources
+   │     └─ application.yml
+   └─ test
+      └─ java
+         └─ uk
+            └─ ac
+               └─ ed
+                  └─ acp
+                     └─ cw2
+                        └─ AcpCw2ApplicationTests.java
+
+```
